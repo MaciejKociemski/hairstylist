@@ -1,5 +1,5 @@
 header {
-background-color: #FDF2E9;
+background-color: #B4D7D2;
 background-image: url('scissors-background.jpg');
 background-repeat: no-repeat;
 background-position: center;
@@ -9,19 +9,19 @@ text-align: center;
 
 header h1 {
 font-size: 36px;
-color: #764B3E;
+color: #3E7264;
 padding-top: 100px;
 }
 
 nav {
 display: flex;
 justify-content: center;
-background-color: #D1A68E;
+background-color: #7EACA2;
 padding: 20px 0;
 }
 
 nav button {
-background-color: #A05A45;
+background-color: #5aa28b;
 color: #FFF;
 border: none;
 padding: 10px 20px;
@@ -31,7 +31,7 @@ cursor: pointer;
 }
 
 nav button:hover {
-background-color: #764B3E;
+background-color: 3e7264;
 }
 
 main {
@@ -70,7 +70,7 @@ margin: 0 auto;
 label {
 margin-bottom: 10px;
 font-size: 16px;
-color: #764B3E;
+color: #3e7264;
 }
 
 input[type="text"],
@@ -79,12 +79,12 @@ input[type="tel"],
 input[type="date"] {
 padding: 10px;
 margin-bottom: 20px;
-border: 1px solid #D1A68E;
+border: 1px solid #7eaca2;
 border-radius: 5px;
 }
 
 button[type="submit"] {
-background-color: #A05A45;
+background-color: #5aa28b;
 color: #FFF;
 border: none;
 padding: 10px 20px;
@@ -94,11 +94,11 @@ cursor: pointer;
 }
 
 button[type="submit"]:hover {
-background-color: #764B3E;
+background-color: #3e7264;
 }
 
 footer {
-background-color: #D1A68E;
+background-color: #7eaca2;
 padding: 20px;
 display: flex;
 justify-content: space-between;
