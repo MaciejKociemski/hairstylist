@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Zakład fryzjerski Sylwia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="background">
+        <h1>Zakład fryzjerski Sylwia</h1>
+      </div>
+    </header>
+    <nav>
+      <button class="nav-btn">O mnie</button>
+      <button class="nav-btn">Kontakt i rezerwacja</button>
+      <button class="nav-btn">Jak dojechać</button>
+      <button class="nav-btn">Zakres usług i cennik</button>
+    </nav>
+    <main>
+      <div class="slider">
+        <img src="./images/color-soft-dusty-2867289_640.jpg" alt="Fryzura 1">
+        <img src="./images/hair-2885820_640.jpg" alt="Fryzura 2">
+        <img src="./images/hair-2885839_640.jpg" alt="Fryzura 3">
+        <img src="./images/model-3740596_640.jpg" alt="Fryzura 4">
+        <img src="./images/woman-83173_640.jpg" alt="Fryzura 5">
+        <!-- <img src="img6.jpg" alt="Fryzura 6">
+        <!--<img src="img7.jpg" alt="Fryzura 7">
+        <img src="img8.jpg" alt="Fryzura 8">
+        <img src="img9.jpg" alt="Fryzura 9">
+        <img src="img10.jpg" alt="Fryzura 10"> -->
+      </div>
+      <form action="mailto:sylwia@fryzjer.pl" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Numer telefonu:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="date">Data wizyty:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Wyślij</button>
+      </form>
+    </main><footer>
+    <div class="social-media">
+        <ul class="imageBox">
+        <a href="https://www.facebook.com"><svg class="icon"><use xlink:href="./images/icons.svg#icon-facebook"></use></svg></a>
+        <a href="https://www.instagram.com"><svg class="icon"><use xlink:href="./images/icons.svg#icon-instagram"></use></svg></a></ul>
+      </div>
+      <div class="contact-info">
+        <p>Telefon: 123-456-789</p>
+        <p>Email: sylwia@fryzjer.pl</p>
+        <p>Adres: ul. Przykładowa 1, 00-000 Warszawa</p>
+      </div>
+    </footer>
+    <script src="js.js"></script>
+
+  </body>
+</html>
